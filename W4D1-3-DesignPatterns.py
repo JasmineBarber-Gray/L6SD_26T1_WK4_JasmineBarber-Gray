@@ -1,5 +1,6 @@
+#Scenario: Presidents Offcial Pen
 #Singleton design pattern
-#why
+#why?
 #only one class exsists
 #prevents accidental duplication
 
@@ -27,4 +28,7 @@ pen1.sign_document("Economic Reform Bill")
 pen2.sign_document("International Treaty")
 
 # Verify both variables reference the same instance
-print(pen1 is pen2)  # True
+print(pen1 is pen2)
+
+#Scenario: Car Manufacturing Plant
+#
